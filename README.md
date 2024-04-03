@@ -52,7 +52,7 @@
 [4]: https://github.com/Howl222
 
  ## Input Validation Discussed below: 
-What is Input Validation?
+* What is Input Validation?
 Input validation is a crucial process in software development that involves examining and verifying user-provided or external data to ensure it meets specific criteria or standards before processing. Here's a breakdown of what input validation entails:
 		Examination of Data: Input validation begins with the examination of data received from users or external sources, such as web forms, APIs, or file uploads.
 		Verification of Format: It verifies that the input data conforms to the expected format, structure, or syntax. This includes checking for correct data types, lengths, and patterns.
@@ -65,7 +65,7 @@ Input validation is a crucial process in software development that involves exam
 		Adaptation to Changing Requirements: Input validation should be adaptable to changing requirements and evolving threats, allowing applications to maintain a high level of security and integrity over time.
 
 
-What can be achieved with Input Validation as a security measure?
+* What can be achieved with Input Validation as a security measure?
 This is how input validation can be used to implement security measures.
 
 1. Prevention of Injection threats: By cleaning user inputs and making sure they don't include malicious code or unauthorised commands, input validation helps avoid a variety of injection threats, including SQL injection, NoSQL injection, and command injection.
@@ -88,7 +88,7 @@ This is how input validation can be used to implement security measures.
 
 10. Enhancement of Trust and Reputation: In the eyes of clients, partners, and stakeholders, the organization's credibility and reputation are maintained when effective input validation raises user trust and confidence in the security of the application.
 
-Explain the existing types of input validation. Please focus only on Normalizing Input to UTF-8, Syntax Validation, Regular Expression Validation, and Allow-List Validation
+* Explain the existing types of input validation. Please focus only on Normalizing Input to UTF-8, Syntax Validation, Regular Expression Validation, and Allow-List Validation
 
 		Normalizing Input to UTF-8:
 Purpose: Normalizing input to UTF-8 involves converting input data into a standardized character encoding format, specifically UTF-8. This helps ensure consistency and compatibility across different systems and prevents encoding-related vulnerabilities.
