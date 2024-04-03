@@ -60,6 +60,7 @@ class SearchHandler {
 
             while (resultSet.next()) {
                 TrafficLog trafficLog = TrafficLog.getInstanceFromResultSet(resultSet);
+                if(ValidationUtil.isValid(trafficLog))
                 trafficLogs.add(trafficLog);
             }
 
